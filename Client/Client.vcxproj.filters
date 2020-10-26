@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{65ad766c-fed5-4303-8da5-b54b53cd4895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1db22702-d230-4602-bf5c-98be7c874614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\World">
+      <UniqueIdentifier>{ab00755a-6559-44f7-a3ff-124ee77c37c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Admin">
+      <UniqueIdentifier>{f538d115-7fd3-4fa1-96ec-7883b734805d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\PPHY">
+      <UniqueIdentifier>{d3fcab4a-8a0e-48f4-9217-3b68c4ab63c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\World\Cam.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\World\Scene.cpp">
+      <Filter>Src\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Client.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Admin\App.cpp">
+      <Filter>Src\Admin</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\PPHY\Entity.cpp">
+      <Filter>Src\PPHY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\World\Cam.h">
+      <Filter>Src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\World\Scene.h">
+      <Filter>Src\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Admin\App.h">
+      <Filter>Src\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\PPHY\Entity.h">
+      <Filter>Src\PPHY</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Screen.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\GeoPass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\GeoPass.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\LightingPass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Quad.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Normals.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Normals.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Normals.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Blur.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Text.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Text.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Forward.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Forward.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

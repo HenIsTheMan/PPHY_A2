@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Src\Vendor\stb_image.h">
+      <Filter>Src\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Algs\Printing.h">
+      <Filter>Src\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Algs\Sorting.h">
+      <Filter>Src\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Algs\Swapping.h">
+      <Filter>Src\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Core.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Engine.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SDPs\Singleton.h">
+      <Filter>Src\SDPs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geo\Mesh.h">
+      <Filter>Src\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geo\Vertex.h">
+      <Filter>Src\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphics\Light.h">
+      <Filter>Src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphics\ShaderProg.h">
+      <Filter>Src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Global\GlobalFuncs.h">
+      <Filter>Src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Global\GlobalVars.h">
+      <Filter>Src\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Algs\Pseudorand.h">
+      <Filter>Src\Algs</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\DS\BinTree.h">
+      <Filter>Src\DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geo\Terrain.h">
+      <Filter>Src\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geo\SpriteAni.h">
+      <Filter>Src\Geo</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Graphics\TextChief.h">
+      <Filter>Src\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Global\GlobalStructs.h">
+      <Filter>Src\Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Vendor\glad.c">
+      <Filter>Src\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Geo\Mesh.cpp">
+      <Filter>Src\Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphics\ShaderProg.cpp">
+      <Filter>Src\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Global\GlobalFuncs.cpp">
+      <Filter>Src\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Geo\Terrain.cpp">
+      <Filter>Src\Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Geo\SpriteAni.cpp">
+      <Filter>Src\Geo</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Graphics\TextChief.cpp">
+      <Filter>Src\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{c9a85b29-b42f-4194-b000-47ccd5dd28cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Algs">
+      <UniqueIdentifier>{f074fb2f-e1a8-4668-a960-ddc069f8e80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Vendor">
+      <UniqueIdentifier>{a94a15cf-0c15-4d61-8bdb-23893aaef750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\SDPs">
+      <UniqueIdentifier>{065defeb-f547-47eb-a7aa-0dab2e912e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Geo">
+      <UniqueIdentifier>{67474d72-37b5-46a9-a06f-9bdb25e432b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Graphics">
+      <UniqueIdentifier>{8317eae2-4bb2-4e83-903a-b9ad9224d5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Global">
+      <UniqueIdentifier>{80733b05-9865-432a-a105-7d15b50cc595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\DS">
+      <UniqueIdentifier>{a9d2b0bb-9090-49f9-add0-02bd56b14bc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

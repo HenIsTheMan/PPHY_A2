@@ -1,0 +1,6 @@
+# Directories
+.vs/
+Bin/
+
+# Files
+*.user
